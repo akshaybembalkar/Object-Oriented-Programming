@@ -1,0 +1,18 @@
+#include "row.h"
+
+row::row()
+{
+}
+
+row::row(int getRow)
+{
+	maxRow = getRow;
+}
+
+/*
+
+*/
+int row::getRow() const
+{
+	return maxRow;
+}

@@ -1,0 +1,24 @@
+/*
+row class returns the current row to be printed on
+the stamping press.
+This .h file includes declarations of all class 
+attributes.
+*/
+
+#ifndef ROW
+#define ROW
+
+class row
+{
+	public:
+		row();             //*Constructor.
+		row(int count);
+
+		int getRow() const;  //*Get current row to be printed.
+
+	private:
+		int maxRow;
+
+};
+
+#endif
