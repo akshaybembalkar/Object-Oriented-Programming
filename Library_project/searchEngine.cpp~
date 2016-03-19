@@ -192,7 +192,7 @@ vector<Media*> searchEngine::searchBySubject(const string& subject) const
 			resultVector.push_back(cardCatalog[i]);
 		}
 	}
-	cout<<"\nsize of CardCatalog: "<<cardCatalog.size()<<endl;
+	
 	return resultVector;
 }
 
@@ -215,6 +215,6 @@ vector<Media*> searchEngine::searchOther(const string& other) const
 			resultVector.push_back(cardCatalog[i]);
 		}
 	}
-	cout<<"\nsize of CardCatalog: "<<cardCatalog.size()<<endl;
+	
 	return resultVector;
 }
